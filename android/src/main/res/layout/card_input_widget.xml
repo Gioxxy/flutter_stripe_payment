@@ -7,8 +7,7 @@
     android:minWidth="360dp"
     android:padding="20dp"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@android:color/white">
+    android:layout_height="wrap_content">
 
     <TextView
         android:layout_width="match_parent"
@@ -22,7 +21,8 @@
     <com.stripe.android.view.CardMultilineWidget
         android:id="@+id/card_input_widget"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:theme="@style/CardTheme" />
 
     <LinearLayout
         android:layout_marginTop="40dp"
