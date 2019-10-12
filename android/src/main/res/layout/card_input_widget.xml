@@ -21,20 +21,19 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal">
+        android:gravity="center">
 
         <Space
             android:layout_width="30dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_height="match_parent"/>
 
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Paga"
+            android:text="PAGA"
             android:textColor="#ffffff"
-            android:background="@drawable/roundButton"
+            android:background="@drawable/round_button"
             android:id="@+id/btn_create_payment_method"/>
 
         <androidx.core.widget.ContentLoadingProgressBar
