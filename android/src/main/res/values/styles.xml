@@ -4,7 +4,7 @@
         <item name="android:windowNoTitle">true</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorAccent">#dd3739</item>
+        <item name="colorAccent">@color/colorAccent</item>
 
         <!-- Set this to true if you want Full Screen without status bar -->
         <item name="android:windowFullscreen">false</item>
@@ -19,10 +19,5 @@
         <item name="android:windowExitAnimation">@anim/slide_down</item>
     </style>
 
-    <style name="CardTheme">
-        <item name="colorPrimary">#dd3739</item>
-        <item name="colorAccent">#dd3739</item>
-        <item name="colorControlActivated">#dd3739</item>
-    </style>
 </resources>
 
