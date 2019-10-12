@@ -7,17 +7,25 @@
     android:minWidth="360dp"
     android:padding="20dp"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-
-<com.stripe.android.view.CardMultilineWidget
-    android:id="@+id/card_input_widget"
-    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:cardTint="@android:color/holo_purple"
-    app:cardTextErrorColor="@android:color/holo_orange_dark" />
+    android:background="@drawable/round_bkg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:text="Metodo di pagamento"
+        android:textFontWeight="600"
+        android:layout_marginBottom="20dp"/>
+
+    <com.stripe.android.view.CardMultilineWidget
+        android:id="@+id/card_input_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <LinearLayout
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="70dp"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,6 +37,10 @@
             android:text="PAGA"
             android:textColor="#ffffff"
             android:background="@drawable/round_button"
+            android:layout_margin="20dp"
+            android:paddingHorizontal="40dp"
+            android:textSize="20sp"
+            android:textFontWeight="700"
             android:id="@+id/btn_create_payment_method"/>
 
         <androidx.core.widget.ContentLoadingProgressBar
